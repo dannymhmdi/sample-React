@@ -1,0 +1,98 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(200, 200, 200 , .5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-message{
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* display: ; */
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    padding: 5px;
+}
+
+.modal-header button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-header button:hover{
+background-color: #d5d2d2;
+}
+
+.modal-body{
+    text-align: center;
+    padding: 12px 0;
+}
+
+.modal-footer{
+text-align: end;
+border-top: 1px solid rgba(0, 0, 0, 0.24);
+padding: 8px;
+}
+
+.modal-footer button:first-child{
+    background-color: green;
+    padding: 6px 24px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+.modal-footer button:nth-child(2){
+    background-color: crimson;
+    padding: 6px 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media screen and (min-width:576px) {
+    .modal-message{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .modal-message{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .modal-message{
+        width: 30%;
+    }
+}
+

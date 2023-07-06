@@ -1,0 +1,9 @@
+.list-empty{
+    grid-column: 1 / span 6;
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0;
+    text-align: center;
+    font-style: italic;
+}

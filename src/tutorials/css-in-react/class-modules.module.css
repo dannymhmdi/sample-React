@@ -1,0 +1,39 @@
+.class-modules-wrapper {
+    background-color: #7bd9f0;
+    padding: 2em;
+    font-family: 'Times New Roman', Times, serif
+}
+ .title {
+    text-align: start;
+    font-size: 28px;
+    font-weight: 900;
+}
+.mb-5 {
+    margin-bottom: 36px;
+}
+
+.class-modules-wrapper p {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+    background-color: orangered;
+    color: white;
+}
+.class-modules-wrapper .button:hover {
+    background-color: hsl(16, 100%, 30%);
+    color: white;
+}
+.class-modules-wrapper .button.active {
+    background-color: dodgerblue;
+}
+.class-modules-wrapper .button:global.active {
+    background-color: dodgerblue;
+}

@@ -1,0 +1,1 @@
+export { default as W3schoolsPage } from './w3schools-page'

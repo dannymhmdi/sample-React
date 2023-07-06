@@ -1,0 +1,54 @@
+#button-9 .knobs:before,
+#button-9 .knobs:after,
+#button-9 .knobs span {
+    position: absolute;
+    top: 4px;
+    width: 20px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    border-radius: 50%;
+    transition: 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-9 .knobs:before {
+    content: 'YES';
+    left: 4px;
+}
+
+#button-9 .knobs:after {
+    content: 'NO';
+    right: -24px;
+}
+
+#button-9 .knobs:before,
+#button-9 .knobs:after {
+    color: #fff;
+    z-index: 2;
+}
+
+#button-9 .knobs span {
+    left: 4px;
+    background-color: #03a9f4;
+    z-index: 1;
+}
+
+#button-9 .checkbox:checked+.knobs:before {
+    left: -24px;
+}
+
+#button-9 .checkbox:checked+.knobs:after {
+    right: 4px;
+}
+
+#button-9 .checkbox:checked+.knobs span {
+    left: 42px;
+    background-color: #F44336;
+}
+
+#button-9 .checkbox:checked~.layer {
+    background-color: #fcebeb;
+}

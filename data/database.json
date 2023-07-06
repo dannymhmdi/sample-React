@@ -1,0 +1,42 @@
+{
+  "user": [
+    {
+      "id": 5,
+      "firstName": "Joe",
+      "lastName": "Satriani",
+      "phone": 12345667,
+      "email": "joe@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Sara",
+      "lastName": "Alamouti",
+      "phone": 12345667,
+      "email": "sara@gmail.com"
+    },
+    {
+      "firstName": "Hamidreza",
+      "lastName": "izadimatin",
+      "phone": "0912294854",
+      "email": "hamid@gmail.com",
+      "id": 8
+    },
+    {
+      "firstName": "Sadra",
+      "lastName": "Safavi mehr",
+      "phone": "0335461170",
+      "email": "Sadra@gmail.com",
+      "id": 9
+    },
+    {
+      "firstName": "Rasool",
+      "lastName": "Khoshtinat",
+      "phone": "0912554468",
+      "email": "rasool@gmail.com",
+      "id": 10
+    }
+  ],
+  "post": [],
+  "products": [],
+  "categories": []
+}

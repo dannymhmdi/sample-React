@@ -1,0 +1,72 @@
+.grid-container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns:repeat(3,1fr) 300px 120px;
+  gap: 0 10px;
+}
+
+.grid-item{
+background-color: #555;
+text-align: center;
+padding: 8px 8px;
+color: #fff;
+}
+
+
+.grid-body{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) 300px 120px;
+    gap: 0 10px;
+}
+.grid-body-item{
+    background-color: #fff;
+    padding: 8px 0 8px 8px;
+    color: black;
+    text-align: start;
+}
+
+.icon-btn{
+  display: grid;
+  grid-template-columns: 35px 35px;
+  justify-content: space-around;
+}
+
+.icon-btn button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.edit-button{
+  color: black;
+  padding: 4px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.new-button-container{
+  padding: 6px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.new-button{
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  /* text-align: center; */
+}
+
+.icon-btn button:hover , .edit-button:hover , .new-button:hover{
+  background-color: #d0cfcf;
+}
+
+

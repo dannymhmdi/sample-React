@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Document</title>
+    <style>
+        /* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+
+        * {
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f1f9f9;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid ;
+            /* align-items: flex-start; */
+            height: 100vh;
+        }
+
+        .container>div:first-child {
+            /* height: 50vh; */
+            border: 1px solid red;
+            width: 50%;
+        }
+
+        .container>div:nth-child(2) {
+            /* height: 50vh; */
+            border: 1px solid blue;
+            width: 40%;
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center; */
+        }
+
+        .container > div:nth-child(2) div {
+            border: 1px solid green;
+            /* padding: 0 7px; */
+        }
+    </style>
+</head>
+
+<body>
+    <h3 id="head">100</h3>
+
+    <script>
+
+        let number = 0
+
+
+
+
+
+
+        const person = {
+            firstUser: {
+                "name": 'Daniel',
+                "lastName": 'Mohammadi',
+                "age": 24,
+                "degree": 'master',
+                "job": 'developer'
+            },
+            secondUser: {
+                "name": 'Roya',
+                "lastName": 'Alamouti',
+                "age": 53,
+                "degree": 'master',
+                "job": 'teacher'
+            },
+            thirdUser: {
+                "name": 'Sadra',
+                "lastName": 'Safavi',
+                "age": 24,
+                "degree": 'doctor',
+                "job": 'salesman'
+            }
+        }
+
+        // const text = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+        // const myArr = JSON.parse(text);
+        let num = 36
+        let gg = 50
+        num = gg
+        console.log('num =', num)
+
+        let obj = {
+            name: 'Hesam',
+            lastName: 'Mohammadi',
+            age:25
+        }
+
+      
+        
+
+        console.log(obj?.aged)
+        console.log(car)
+ 
+    </script>
+</body>
+
+</html>

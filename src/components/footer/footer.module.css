@@ -1,0 +1,14 @@
+footer{
+    height: 460px;
+    background-color: darkslategray;
+    padding: 16px 24px;
+}
+
+footer p{
+    /* display: inline-block; */
+    margin-bottom: 0;
+
+}
+h3{
+    margin-top: 0;
+}

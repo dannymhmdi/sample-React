@@ -1,0 +1,28 @@
+.search-bar-container {
+  /* border: 1px solid; */
+  padding: 0px 10px;
+  position: relative;
+}
+.search-bar-container input {
+  padding: 10px 5px;
+  border: 1px solid #b7b6b6;
+  outline: none;
+  border-radius: 5px;
+  width: 40%;
+  font-size: 16px;
+}
+
+.search-bar-container > span {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-100% , -50%);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+    transition: all .1s linear;
+}
+
+.search-bar-container > span:hover{
+    background-color: #c6c3c3;
+}

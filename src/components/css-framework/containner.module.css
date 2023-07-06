@@ -1,0 +1,30 @@
+.container , .container-fluid{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 2px solid; */
+}
+
+@media screen and (min-width:576px) {
+    .container{
+        width: 550px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        width: 950px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container{
+        width: 1050px;
+    }
+}
